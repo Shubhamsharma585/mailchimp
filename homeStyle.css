@@ -1,0 +1,157 @@
+.background1
+{
+    background-color: rgb(251,227,75);
+    height: 600px;
+    width: 100vw;
+    border: solid black 2px;
+}
+
+.box1
+{
+    display: grid;
+    margin: auto;
+    float: left;
+    grid-template: "a a a a y y b  c c";
+    gap: 1%;
+    width: 100%;
+    padding-left: 0.3% ;
+}
+
+.box1 h4
+{
+    grid-area: "a";  
+    font-family: Arial, Helvetica, sans-serif; 
+    width: 10%;
+}
+.box1 y
+{
+   grid-area: "y";
+   width: 20%;
+}
+.box1 img
+{
+    grid-area: "b b";
+    width: 60%;
+}
+.box1 div
+{
+    grid-area: "c c ";
+    border: black solid 1px;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    padding-top: 5%;
+    
+
+}
+#login
+{
+      font-family: Arial, Helvetica, sans-serif;
+      height: 45%;
+      width: 100%;
+      
+}
+
+#signup
+{
+    background-color: rgb(0,124,137);
+    color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10%;
+    height: 45%;
+    border: solid ;
+
+}
+
+
+
+
+.box2
+{
+    width: 35%;
+    margin-left: 10%;
+    float: left;
+}
+
+.font1
+{
+    font-size: 54px;
+    margin-bottom: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.font2
+{
+    font-size: 25px;
+    color: rgb(48, 45, 45);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0%;
+}
+
+.pick
+{
+    background-color: rgb(0,124,137);
+    height: 30px;
+    width: 30%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 2%;
+}
+
+
+.box2_1
+{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+
+}
+
+.font3
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(70, 53, 53);
+
+}
+
+.box3
+{
+    float: left;
+    color: white;
+    background-color: #403b3b;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 20%;
+    padding-left: 5%;
+    width: 75%;
+}
+
+.box3_1
+{
+    float: left;
+}
+
+#box3_1_width
+{
+    width: 65%;
+}
+
+#font3_1
+{
+   font-size: 30px;
+   margin-bottom: 10px;
+}
+
+#font3_2
+{
+   width: 50%;
+   font-size: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#font3_3
+{
+   color: yellow;
+   font-family: Arial, Helvetica, sans-serif;
+}
