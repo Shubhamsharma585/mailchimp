@@ -1,20 +1,29 @@
+
+/* Navigation bar */
+
+
+
+
+ /* body part */
+
+
 .background1
 {
     background-color: rgb(251,227,75);
     height: 600px;
     width: 100vw;
-    border: solid black 2px;
 }
 
 .box1
 {
     display: grid;
     margin: auto;
+    margin-bottom: 50px;
     float: left;
     grid-template: "a a a a y y b  c c";
     gap: 1%;
     width: 100%;
-    padding-left: 0.3% ;
+    padding-left: 4% ;
 }
 
 .box1 h4
@@ -54,12 +63,12 @@
 
 #signup
 {
-    background-color: rgb(0,124,137);
-    color: blanchedalmond;
+  
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 10%;
-    height: 45%;
-    border: solid ;
+    height: 35%;
+    background-color: rgb(0,124,137);
+    color: white;
 
 }
 
